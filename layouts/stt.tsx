@@ -25,7 +25,7 @@ export default function STTLayout({ handleChange }: { handleChange: (inputText: 
                 {tools.map((value, index) => {
                     return (
                         <Link href={`/posts/${value.id}`} key={value.id}>
-                            <li key={value.id} className="h-min py-1 px-2 hover:bg-blue-300 rounded-lg">{value.name}</li>
+                            <li key={value.id} className="h-min py-1 px-2 hover:bg-blue-700 rounded-lg">{value.name}</li>
                         </Link>
                     );
                 })}

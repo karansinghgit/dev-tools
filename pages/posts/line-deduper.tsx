@@ -1,7 +1,5 @@
 import DefaultLayout from "@/layouts/default";
 import STTLayout from "@/layouts/stt";
-import { Listbox, ListboxItem } from "@nextui-org/react";
-import { MouseEventHandler, MouseEvent, useState, ChangeEvent, ChangeEventHandler } from "react";
 
 export default function LineDeduper() {
 	const handleChange = (inputText: string) => {
